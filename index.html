@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Tracker</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+    <form id = "search-form">
+        <label class="label" for="city">City:</label>
+        <input id="city" type="text" list="history" />
+        <input type="submit" value="Search" class="searchButton">
+        <datalist id="history">
+        </datalist>
+    </form>
+    <div hidden id = "today"></div>
+    <div id = "forecast5">
+
+        <div hidden id = "day1">
+
+        </div>
+
+        <div hidden id = "day2">
+
+        </div>
+
+        <div hidden id = "day3">
+          
+        </div>
+
+        <div hidden id = "day4">
+
+        </div>
+
+        <div hidden id = "day5">
+
+        </div>
+
+    </div>
+</body>
+<script src = "index.js"></script>
+</html>
