@@ -1,0 +1,40 @@
+body {
+  background-color: blanchedalmond;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: beige;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#today{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: rgb(83, 83, 83);
+}
+
+#forecast {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 20px;
+  font-size: 30px;
+  background-color: rgb(83, 83, 83);
+}
+
+.day {
+  background-color: rgb(128, 36, 36);
+  border:3px solid black;
+  border-radius: 5px;
+}
