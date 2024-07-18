@@ -15,7 +15,7 @@ A web application that allows a user to view a weather forecast with a weather A
 
 ## Usage
 
-[Navigate to the website]()
+## **The Weather API provided by the bootcamp no longer works in a deployed version, I have demonstated the functionality to the Instructor already.**
 
 * Enter a City, and see the results!
   
